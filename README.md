@@ -12,13 +12,13 @@
 
 # 目次
 
-- 必要な工具
-- 本製品に含まれるパーツ一覧
-- 本製品に含まれていない必要なパーツ一覧と主な購入先
-- 本体の組み立て
-- 基本ファームウェアの書き込み
-- QMK Configuratorでファームウェアを作る
-- 36キーキーボードとして使うときの注意事項
+- [必要な工具](https://github.com/kakunpc/Suihankey#%E5%BF%85%E8%A6%81%E3%81%AA%E5%B7%A5%E5%85%B7)
+- [本製品に含まれるパーツ一覧](https://github.com/kakunpc/Suihankey#%E6%9C%AC%E8%A3%BD%E5%93%81%E3%81%AB%E5%90%AB%E3%81%BE%E3%82%8C%E3%82%8B%E3%83%91%E3%83%BC%E3%83%84%E4%B8%80%E8%A6%A7)
+- [本製品に含まれていない必要なパーツ一覧と主な購入先](https://github.com/kakunpc/Suihankey#%E6%9C%AC%E8%A3%BD%E5%93%81%E3%81%AB%E5%90%AB%E3%81%BE%E3%82%8C%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E5%BF%85%E8%A6%81%E3%81%AA%E3%83%91%E3%83%BC%E3%83%84%E4%B8%80%E8%A6%A7%E3%81%A8%E4%B8%BB%E3%81%AA%E8%B3%BC%E5%85%A5%E5%85%88)
+- [本体の組み立て](https://github.com/kakunpc/Suihankey#%E6%9C%AC%E4%BD%93%E3%81%AE%E7%B5%84%E3%81%BF%E7%AB%8B%E3%81%A6)
+- [基本ファームウェアの書き込み](https://github.com/kakunpc/Suihankey#%E5%9F%BA%E6%9C%AC%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF)
+- [QMK Configuratorでファームウェアを作る](https://github.com/kakunpc/Suihankey#qmk-configurator%E3%81%A7%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%82%92%E4%BD%9C%E3%82%8B)
+- [36キーキーボードとして使うときの注意事項](https://github.com/kakunpc/Suihankey#36%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%81%A8%E3%81%97%E3%81%A6%E4%BD%BF%E3%81%86%E3%81%A8%E3%81%8D%E3%81%AE%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85)
 
 # 必要な工具
 - ハンダゴテ https://www.amazon.co.jp/dp/B006MQD7M4
