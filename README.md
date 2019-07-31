@@ -201,8 +201,14 @@ ProMicroとコンスルーを準備します。
 遊舎工房様で購入した場合は、ピンヘッダとコンスルーの両方がついてきます。
 そのうち、写真の下側のほうがコンスルーでこちらの方を使っていきます。 (上の方は不要なので破棄するかよしなにしてください)
 
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/1.jpg)
+
 コンスルーには向きがあり、小さな点がProMicro側に来るようにとりつけます。  
 また、USBの受け口が内側になるようコンスルーをはんだ付けします。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/3.jpg)
 
 ## 10. PCBにProMicroを取り付ける
 先程はんだ付けしたProMicroをPCBに取り付けていきます。
