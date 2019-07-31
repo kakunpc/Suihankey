@@ -108,10 +108,16 @@ PCB側の `コ` の字型の線がある方を同じ向きに揃えてハンダ�
 KailhChocソケットをつけていきます。
 こちらも、裏面にはんだ付けします。
 
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/1.jpg)
+
 穴が複数空いており複雑になっています。
 向きを間違えないよう、PCBの枠線に合うように置いてはんだ付けしていきます。
 
 ***ソケットの向き、PCBの面を間違えてしまうとスイッチがはまらなくなってしまいます。写真を見ながら慎重に作業してください。***
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/3.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/4.jpg)
 
 ## 4. OLEDのジャンパする
 PCBを表面にし、 `SDA,SCL,VCC,GND` のところをハンダでジャンパしていきます。
