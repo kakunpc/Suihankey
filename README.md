@@ -235,10 +235,16 @@ ProMicroとコンスルーを準備します。
 ## 13. ゴム足をつける
 ネジが傷をつけないように、ゴム足を取り付けます。
 
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/13/1.jpg)
+
 ## 14. キースイッチとキーキャップを指す
 
 向きに注意してキースイッチを指したあとキーキャップ付けていきます。
 つけることが出来たらこれで本体は完成です。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/1.jpg)
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/2.jpg)
 
 # 基本ファームウェアの書き込み
 TDB
