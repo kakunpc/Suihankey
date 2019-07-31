@@ -124,9 +124,16 @@ PCBを表面にし、 `SDA,SCL,VCC,GND` のところをハンダでジャンパ�
 
 ***ここのジャンパは裏面ではないです。間違えないようにしてください。***
 
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/4/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/4/2.jpg)
+
+
 ## 5. OLEDソケットを付ける
 
 先程ジャンパしたところの下の位置にソケットをつけてはんだ付けしていきます。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/5/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/5/2.jpg)
 
 ## 6. RGBLEDをつける（オプション）
 この作業の必要のない方は [(8. ネジを付ける)](https://github.com/kakunpc/Suihankey#8-%E3%83%8D%E3%82%B8%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B) まで飛ばしてください。
