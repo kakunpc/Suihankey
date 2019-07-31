@@ -170,15 +170,31 @@ LEDの切込みと、PCBの枠で囲った位置が合うよう向きを合わ�
 ない場合はテープなどで代用可能です。
 
 トッププレートに `M2 8mmネジ` を8箇所全てのネジ穴に指します。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/1.jpg)
+
 その後カッターマットなどを利用してネジ穴から落ちないようひっくり返します。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/2.jpg)
 
 ひっくり返したら、 `M2 3mm 貫通スペーサー` を8箇所と通します。
 
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/3.jpg)
+
 その後、PCBを付けて、 `M2 5mm スペーサー` で固定します。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/4.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/5.jpg)
 
 8箇所すべて固定しネジが落ちない状況になったら、再度ひっくり返し、PCBに `M2 8mmスペーサー` を通します。その後反対側を `M2 5mm スペーサー` で固定します。
 
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/6.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/7.jpg)
+
 最後にボトムプレートをとりつけ `M2 3mm ネジ` で10箇所固定します。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/8.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/9.jpg)
 
 ## 9. ProMicroにコンスルーをつける
 ProMicroとコンスルーを準備します。
