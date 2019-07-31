@@ -65,6 +65,7 @@
 # 本体の組み立て
 
 ## 1. ダイオードを取り付け
+
 まず、ダイオードを取り付けていきます。  
 ダイオードを取り付けるPCBの面は、裏側になります。
 ダイオードには向きがありますので注意して取り付けてください。
@@ -72,7 +73,7 @@
 ダイオードの端に細い線が通っている方と、 
 PCB側の `コ` の字型の線がある方を同じ向きに揃えてハンダ付けしていきます。
 
-図1 ダイオードの取り付け向き
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/1.jpg)
 
 取り付けるときは、まず片側に予備ハンダをします。  
 その後、先程予備ハンダしたところを半田ゴテで温めながら、ピンセットを使ってダイオードの取り付けていきます。  
@@ -81,9 +82,13 @@ PCB側の `コ` の字型の線がある方を同じ向きに揃えてハンダ�
 
 その後、もう片方の足をはんだ付けします。
 
-図 ダイオードのハンダ付け方法
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/3.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/4.jpg)
 
-図ダイオードの半田完了後
+すべてはんだ付けするとこのようになります。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/5.jpg)
 
 ## 2. リセットスイッチの取り付け
 次に、リセットスイッチを取り付けていきます。  
