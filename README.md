@@ -139,15 +139,19 @@ PCBを表面にし、 `SDA,SCL,VCC,GND` のところをハンダでジャンパ�
 
 この作業の必要のない方は [(8. ネジを付ける)](https://github.com/kakunpc/Suihankey#8-%E3%83%8D%E3%82%B8%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B) まで飛ばしてください。
 
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/1.jpg)
+
 まず半田ゴテの温度を下げます（230度ぐらいに）
 半田ゴテの温度が高い状態で作業するとLEDを熱で壊してしまいますので、必ず下げてください。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/2.jpg)
 
 LEDの切込みと、PCBの枠で囲った位置が合うよう向きを合わせてはんだ付けしていきます。
 このとき、ダイオードでやったのと同じで一箇所だけ予備ハンダし、ピンセットを使ってハンダ付けしてください。
 
 ***このとき、なるべく慌てず素早く作業しましょう。温度が低くても長時間温め続けてしまうとLEDの故障の原因となります。***
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/3.jpg)
 
 ## 7. ボトムプレートとPCBをワイヤーでつなぐ（オプション）
 
@@ -156,6 +160,10 @@ LEDの切込みと、PCBの枠で囲った位置が合うよう向きを合わ�
 その後、上から同じ位置に合うようにワイヤーを刺し、はんだ付けします。
 
 □から `VCC,LED,GND` の順になっています。
+
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/7/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/7/2.jpg)
 
 ## 8. ネジを付ける
 ひっくり返す作業が必要となりますのでカッターマットなどを用意してください。
