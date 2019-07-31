@@ -38,28 +38,28 @@
 
 |名前|個数| |
 |:-----:|:----:|:----:|
-|PCB|1枚|![pcb](https://github.com/kakunpc/Suihankey/master/images/pcb.jpg)|
+|PCB|1枚|![pcb](https://github.com/kakunpc/Suihankey/blob/master/images/pcb.jpg)|
 |トッププレート|1枚||
 |ボトムプレート|1枚||
-|ダイオード|18個|![diode](https://github.com/kakunpc/Suihankey/master/images/diode.jpg)|
-|M2 3mm貫通スペーサー|8個|![m-3sp](https://github.com/kakunpc/Suihankey/master/images/m-3sp.jpg)|
-|M2 8mmネジ|8本|![m2-8mm](https://github.com/kakunpc/Suihankey/master/images/m2-8mm.jpg)|
-|M2 3mmネジ|10本|![image](https://github.com/kakunpc/Suihankey/master/images/m2-3mm.jpg)|
-|M2 5mmネジ|2本|![image](https://github.com/kakunpc/Suihankey/master/images/m2-5mm.jpg)|
-|M2 5mmスペーサー|10個|![image](https://github.com/kakunpc/Suihankey/master/images/m2-5sp.jpg)|
-|M2 8mmスペーサー|2個|![image](https://github.com/kakunpc/Suihankey/master/images/m2-8sp.jpg)|
-|ゴム足|4つ|![rubber](https://github.com/kakunpc/Suihankey/master/images/rubber.jpg)|
-|リセットスイッチ|1個|![reset](https://github.com/kakunpc/Suihankey/master/images/reset.jpg)|
-|アクリル|1枚|![plate](https://github.com/kakunpc/Suihankey/master/images/plate.jpg)|
+|ダイオード|18個|![diode](https://github.com/kakunpc/Suihankey/blob/master/images/diode.jpg)|
+|M2 3mm貫通スペーサー|8個|![m-3sp](https://github.com/kakunpc/Suihankey/blob/master/images/m-3sp.jpg)|
+|M2 8mmネジ|8本|![m2-8mm](https://github.com/kakunpc/Suihankey/blob/master/images/m2-8mm.jpg)|
+|M2 3mmネジ|10本|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-3mm.jpg)|
+|M2 5mmネジ|2本|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-5mm.jpg)|
+|M2 5mmスペーサー|10個|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-5sp.jpg)|
+|M2 8mmスペーサー|2個|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-8sp.jpg)|
+|ゴム足|4つ|![rubber](https://github.com/kakunpc/Suihankey/blob/master/images/rubber.jpg)|
+|リセットスイッチ|1個|![reset](https://github.com/kakunpc/Suihankey/blob/master/images/reset.jpg)|
+|アクリル|1枚|![plate](https://github.com/kakunpc/Suihankey/blob/master/images/plate.jpg)|
 
 # 本製品に含まれていない必要なパーツ一覧と主な購入先
 
 |名前|個数|入手先| |
 |:-----:|:----:|:----:|:----:|
-|ProMicro+コンスルー|1セット|遊舎工房( https://yushakobo.jp/shop/promicro-spring-pinheader/ )|![pcb](https://github.com/kakunpc/Suihankey/master/images/promico.jpg)|
-|SSD1306|1個|遊舎工房( https://yushakobo.jp/shop/oled/ )|![ssd1306](https://github.com/kakunpc/Suihankey/master/images/ssd1306.jpg)|
-|MXキーソケット|18個|遊舎工房( https://yushakobo.jp/shop/a01ps/ )|![kailhchoc](https://github.com/kakunpc/Suihankey/master/images/kailhchoc.jpg)|
-|（任意）SK6812MINI|18個|遊舎工房( https://yushakobo.jp/shop/sk6812mini-35/ )|![sk6812mini](https://github.com/kakunpc/Suihankey/master/images/sk6812mini.jpg)|
+|ProMicro+コンスルー|1セット|遊舎工房( https://yushakobo.jp/shop/promicro-spring-pinheader/ )|![pcb](https://github.com/kakunpc/Suihankey/blob/master/images/promico.jpg)|
+|SSD1306|1個|遊舎工房( https://yushakobo.jp/shop/oled/ )|![ssd1306](https://github.com/kakunpc/Suihankey/blob/master/images/ssd1306.jpg)|
+|MXキーソケット|18個|遊舎工房( https://yushakobo.jp/shop/a01ps/ )|![kailhchoc](https://github.com/kakunpc/Suihankey/blob/master/images/kailhchoc.jpg)|
+|（任意）SK6812MINI|18個|遊舎工房( https://yushakobo.jp/shop/sk6812mini-35/ )|![sk6812mini](https://github.com/kakunpc/Suihankey/blob/master/images/sk6812mini.jpg)|
 |（任意）ワイヤー5cmぐらい|3本|秋月電子通商( http://akizukidenshi.com/catalog/g/gP-11640/ )| |
 
 # 本体の組み立て
