@@ -136,6 +136,7 @@ PCBを表面にし、 `SDA,SCL,VCC,GND` のところをハンダでジャンパ�
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/5/2.jpg)
 
 ## 6. RGBLEDをつける（オプション）
+
 この作業の必要のない方は [(8. ネジを付ける)](https://github.com/kakunpc/Suihankey#8-%E3%83%8D%E3%82%B8%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B) まで飛ばしてください。
 
 まず半田ゴテの温度を下げます（230度ぐらいに）
@@ -145,6 +146,8 @@ LEDの切込みと、PCBの枠で囲った位置が合うよう向きを合わ�
 このとき、ダイオードでやったのと同じで一箇所だけ予備ハンダし、ピンセットを使ってハンダ付けしてください。
 
 ***このとき、なるべく慌てず素早く作業しましょう。温度が低くても長時間温め続けてしまうとLEDの故障の原因となります。***
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/1.jpg)
 
 ## 7. ボトムプレートとPCBをワイヤーでつなぐ（オプション）
 
