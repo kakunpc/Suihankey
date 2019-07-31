@@ -201,7 +201,6 @@ ProMicroとコンスルーを準備します。
 遊舎工房様で購入した場合は、ピンヘッダとコンスルーの両方がついてきます。
 そのうち、写真の下側のほうがコンスルーでこちらの方を使っていきます。 (上の方は不要なので破棄するかよしなにしてください)
 
-
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/1.jpg)
 
 コンスルーには向きがあり、小さな点がProMicro側に来るようにとりつけます。  
@@ -216,14 +215,22 @@ ProMicroとコンスルーを準備します。
 
 取り付けるときは白い枠線にピッタリ合うよう、下の線に合わせて取り付けていきます。
 
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/10/1.jpg)
+
 ## 11. OLEDをつける
 最後にOLEDをハンダ付けします。
 ピンヘッダをソケットに差し込み、その上にOLEDを乗せ、そのままはんだ付けします。
 
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/11/1.jpg)
+
 ## 12. OLED保護アクリルを取り付ける
-アクリルを上から剥がします。
+アクリルについている紙を剥がします。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/12/1.jpg)
 
 次にOLEDの保護シートを剥がし、 `M2 5mm ネジ` でアクリルを固定します。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/12/2.jpg)
 
 ## 13. ゴム足をつける
 ネジが傷をつけないように、ゴム足を取り付けます。
