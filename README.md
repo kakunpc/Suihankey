@@ -247,7 +247,35 @@ ProMicroとコンスルーを準備します。
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/2.jpg)
 
 # 基本ファームウェアの書き込み
-TDB
+
+まずは動作確認のため基本ファームウェアを書き込みます。
+
+書き込みには [qmk_toolbox](https://qmk.fm/toolbox/) を使用します。
+[こちら](https://github.com/qmk/qmk_toolbox/releases) から最新版をダウンロードし任意の場所に保存します。
+
+次に、[こちら](https://github.com/kakunpc/Suihankey/releases/)からSuihankey用のファームウェアをダウンロードし任意の場所に保存します。 (suihankey_rev1_default.hex)
+
+その後qmk_toolboxを起動します。
+
+起動したら次のように設定します。
+
+- `Local File` を先程保存したSuihankey用のファームウェアを指定します
+- `Microcontroller` を `atmega42u4` を指定します。
+- `Auto-Flash` にチェックを入れます。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/1.jpg)
+
+準備ができたら、USBでPCとSuihankeyを接続します。
+その後、リセットスイッチを押してしばらくまちます。
+
+`Thank you.` と画面に出たら完了です。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/2.jpg)
+
+デフォルトファームウェアはこの様になっています。
+実際にボタンをして正しく動作するか確認しましょう。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/3.jpg)
 
 # QMK Configuratorでファームウェアを作る
 TDB
