@@ -275,6 +275,8 @@ ProMicroとコンスルーを準備します。
 デフォルトファームウェアはこの様になっています。
 実際にボタンをして正しく動作するか確認しましょう。
 
+**FUNCTION・NUMBER・COMANDに関しては、OLEDディスプレイの文字が変化します。**
+
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/3.jpg)
 
 # QMK Configuratorでファームウェアを作る
