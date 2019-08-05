@@ -126,24 +126,26 @@ https://twitter.com/Salicylic_acid3/status/1108798243142434816
 ## 3. キースイッチ用のソケットをはんだ付けする
 KailhChocソケットをはんだ付けします。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/1.jpg?raw=true)
-
 穴が複数空いており複雑になっています。
 向きを間違えないよう、PCBの枠線に合うように置いてはんだ付けしていきます。
 
-***ソケットの向き、PCBの面を間違えてしまうとスイッチがはまらなくなってしまいます。写真を見ながら慎重に作業してください。***
+***ソケットの向き、PCBの面を間違えてしまうとキースイッチがはまらなくなってしまいます。写真を見ながら慎重に作業してください。***
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/2.jpg?raw=true)
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/3.jpg?raw=true)
-
-すべてのソケットをはんだ付けすると次の写真のようになります。
-
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/4.jpg?raw=true)
+すべてのソケットをはんだ付けすると上の写真のようになります。
+
 
 ## 4. OLEDのジャンパする
-PCBを表面にし、 `SDA,SCL,VCC,GND` のところをハンダでジャンパしていきます。
 
-***ここのジャンパは裏面ではないです。間違えないようにしてください。***
+ジャンパとは基板の一部をショートさせ電通させる事を言います。
+
+PCBを表面にし、 `SDA,SCL,VCC,GND` のところをハンダでショートさせます。  
+次の写真のまるで囲ってある部分のちょっと下に印字されています。
+
+***裏面ではないです。間違えないようにしてください。***  
+***また、両面ともショートさせないでください。***
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/4/1.jpg?raw=true)
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/4/2.jpg?raw=true)
@@ -151,32 +153,33 @@ PCBを表面にし、 `SDA,SCL,VCC,GND` のところをハンダでジャンパ�
 
 ## 5. OLEDソケットを付ける
 
-先程ジャンパしたところの下の位置にソケットをつけてはんだ付けしていきます。
+先程ジャンパしたところの下の位置にOLEDソケットをつけてはんだ付けしていきます。
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/5/1.jpg?raw=true)
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/5/2.jpg?raw=true)
 
 ## 6. RGBLEDをつける（オプション）
 
-この作業の必要のない方は [(8. ネジを付ける)](https://github.com/kakunpc/Suihankey#8-%E3%83%8D%E3%82%B8%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B) まで飛ばしてください。
+この作業の必要のない方は [(8. ネジを付ける)](https://github.com/kakunpc/Suihankey#8-%E3%83%8D%E3%82%B8%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B) までの作業を省略してください。
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/1.jpg?raw=true)
 
-まず半田ゴテの温度を下げます（230度ぐらいに）
-半田ゴテの温度が高い状態で作業するとLEDを熱で壊してしまいますので、必ず下げてください。
+作業を行う前に半田ゴテの温度を230度まで下げます。  
+半田ゴテの温度が高い状態で作業するとLEDを熱で破壊してしまう場合があります。  
+これを防ぐために、コテ先の温度を下げるのを忘れないように注意してください。
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/2.jpg?raw=true)
 
-LEDの切込みと、PCBの枠で囲った位置が合うよう向きを合わせてはんだ付けしていきます。
+RGBLEDの切込みと、PCBの枠で囲った位置が合うよう向きを合わせてはんだ付けしていきます。
 このとき、ダイオードでやったのと同じで一箇所だけ予備ハンダし、ピンセットを使ってハンダ付けしてください。
 
-***このとき、なるべく慌てず素早く作業しましょう。温度が低くても長時間温め続けてしまうとLEDの故障の原因となります。***
+***このとき、なるべく慌てず素早く作業しましょう。温度が低くても長時間温め続けてしまうとLEDを破損させる原因となります。***
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/3.jpg?raw=true)
 
 ## 7. ボトムプレートとPCBをワイヤーでつなぐ（オプション）
 
-ワイヤーを5cm～7cmぐらいの長さに揃えて切り、端から数ミリワイヤーストリッパーなどを使って剥ぎます。
+ワイヤーを5cm～7cmぐらいの長さに揃えて切り、両端から３ミリを目安にワイヤーストリッパーなどを使って被覆を剥ぎます。
 
 その後、上から同じ位置に合うようにワイヤーを刺し、はんだ付けします。
 
@@ -254,18 +257,30 @@ ProMicroとコンスルーを準備します。
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/12/2.jpg?raw=true)
 
 ## 13. ゴム足をつける
-ネジが傷をつけないように、ゴム足を取り付けます。
+キーボードと机を保護するためにゴム足を取り付けます。
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/13/1.jpg?raw=true)
 
 ## 14. キースイッチとキーキャップを指す
 
-向きに注意してキースイッチを指したあとキーキャップ付けていきます。
-つけることが出来たらこれで本体は完成です。
+まずキースイッチを付けます。  
+キースイッチには足が出ており、そちらをキーソケットに接続することで電通することが出来ます。
+写真の赤丸で囲った部分が合うようにキースイッチをまっすぐ差し込みます。
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/1.jpg?raw=true)
-
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/2.jpg?raw=true)
+
+すべてのキースイッチを差し込んだあと、キーキャップを付けていきます。  
+つけるキースイッチの種類によって向きがありますので、確認しながら付けましょう。  
+キーキャップには十字の切れ込み、キースイッチには十字の軸がついています。  
+そちらの向きを確認しながらまっすぐ差し込んでいってください。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/3.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/4.jpg?raw=true)
+
+これで本体は完成です。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/5.jpg?raw=true)
 
 # 基本ファームウェアの書き込み
 
