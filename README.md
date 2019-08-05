@@ -40,9 +40,9 @@
 
 |名前|個数| |
 |:-----:|:----:|:----:|
-|PCB|1枚|![pcb](https://github.com/kakunpc/Suihankey/blob/master/images/pcb.jpg?raw=true)|
-|トッププレート|1枚||
-|ボトムプレート|1枚||
+|PCB|1枚|![main](https://github.com/kakunpc/Suihankey/blob/master/images/main.jpg?raw=true)|
+|トッププレート|1枚|![top](https://github.com/kakunpc/Suihankey/blob/master/images/top.jpg?raw=true)|
+|ボトムプレート|1枚|![bottom](https://github.com/kakunpc/Suihankey/blob/master/images/bottom.jpg?raw=true)|
 |ダイオード|18個|![diode](https://github.com/kakunpc/Suihankey/blob/master/images/diode.jpg?raw=true)|
 |M2 3mm貫通スペーサー|8個|![m-3sp](https://github.com/kakunpc/Suihankey/blob/master/images/m-3sp.jpg?raw=true)|
 |M2 8mmネジ|8本|![m2-8mm](https://github.com/kakunpc/Suihankey/blob/master/images/m2-8mm.jpg?raw=true)|
