@@ -1,3 +1,5 @@
+![main](https://github.com/kakunpc/Suihankey/blob/master/images/thumbnail.jpg?raw=true)
+
 # はじめに
 
 このたびは、「すいはんきー」をお買い上げいただきまして誠にありがとうございます。  
@@ -185,7 +187,14 @@ RGBLEDの切込みと、PCBの枠で囲った位置が合うよう向きを合�
 
 ***このとき、なるべく慌てず素早く作業しましょう。温度が低くても長時間温め続けてしまうとLEDを破損させる原因となります。***
 
+
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/3.jpg?raw=true)
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/4.jpg?raw=true)
+
+1個RGBLEDをつけるとこのようになります。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/5.jpg?raw=true)
 
 ## 7. ボトムプレートとPCBをワイヤーでつなぐ（オプション）
 
