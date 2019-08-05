@@ -225,19 +225,22 @@ ProMicroとコンスルーを準備します。
 遊舎工房様で購入した場合は、ピンヘッダとコンスルーの両方がついてきます。
 そのうち、写真の下側のほうがコンスルーでこちらの方を使っていきます。 (上の方は不要なので破棄するかよしなにしてください)
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/1.jpg?raw=true)
+![image](https://user-images.githubusercontent.com/5952961/59026138-aec00a00-8890-11e9-8fba-5ff7336ee15c.jpg)
 
-コンスルーには向きがあり、小さな点がProMicro側に来るようにとりつけます。  
-また、USBの受け口が内側になるようコンスルーをはんだ付けします。
+ProMicroの部品が実装されている面にコンスルーを差し込みます。
+コンスルーの小さな小窓がProMicroに近い側であること、手前奥ともに小窓が見えていることを確認したらひっくり返します。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/2.jpg?raw=true)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/3.jpg?raw=true)
+![image](https://user-images.githubusercontent.com/5952961/59015614-5b42c180-887a-11e9-92bd-fa32baa3fef1.JPG)
+![image](https://user-images.githubusercontent.com/5952961/59015616-5da51b80-887a-11e9-8408-a7d9d0e1b51e.JPG)
 
 ## 10. PCBにProMicroを取り付ける
-先程はんだ付けしたProMicroをPCBに取り付けていきます。
-12ピンのProMicroに対し13個穴が空いてますが、これはBLEMicroPro用に準備されているものです。
 
-取り付けるときは白い枠線にピッタリ合うよう、下の線に合わせて取り付けていきます。
+この状態でPCBにProMicroを取り付けます。  
+12ピンのProMicroに対し13個穴が空いてますが、これはBLEMicroPro用に準備されています。
+
+取り付けるときは白い枠線にピッタリ合うよう、下の線に合わせて取り付けます。
+
+その後もう一度しっかり刺さってるか確認し、ProMicroをはんだ付けします。
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/10/1.jpg?raw=true)
 
