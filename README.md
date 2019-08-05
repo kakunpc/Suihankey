@@ -1,13 +1,15 @@
 # はじめに
 
 このたびは、「すいはんきー」をお買い上げいただきまして誠にありがとうございます。  
-この製品はPC向けオンラインゲームでの使用を想定して作られましたゲーム向けキーボードです。  
+この製品はPC向けオンラインゲームでの使用を想定して作られましたゲーム向けキーボードです。    
 リバーシブル基板を採用しており、2つセットと追加パーツをお買い上げ頂いた方は、36キーの小さめな左右分割式キーボードとしてもご利用いただけます。
 
 ファームウェアについては [QMK Firmware](https://github.com/qmk/qmk_firmware) を採用しており、ご購入者自身で各キー割り当てを変更することが出来ます。
 
-本製品は組み立てが必要なキットとなります。
-組み立てにはネジ締めやハンダ付けが必要となりますので、予め工具を揃えておいてください。
+本製品は組み立てが必要なキットです。  
+組立工程の中には、ハンダ付けや細いねじを締める工程があります。  
+あらかじめ必要な工具（後述）を用意した上で、組立を始めてください。
+
 また、本製品には含まれていないもので必要なものがございます、必要なパーツを確認の上ご自身でお好みのものを別途揃えてください。
 
 # 目次
@@ -38,120 +40,139 @@
 
 |名前|個数| |
 |:-----:|:----:|:----:|
-|PCB|1枚|![pcb](https://github.com/kakunpc/Suihankey/blob/master/images/pcb.jpg)|
+|PCB|1枚|![pcb](https://github.com/kakunpc/Suihankey/blob/master/images/pcb.jpg?raw=true)|
 |トッププレート|1枚||
 |ボトムプレート|1枚||
-|ダイオード|18個|![diode](https://github.com/kakunpc/Suihankey/blob/master/images/diode.jpg)|
-|M2 3mm貫通スペーサー|8個|![m-3sp](https://github.com/kakunpc/Suihankey/blob/master/images/m-3sp.jpg)|
-|M2 8mmネジ|8本|![m2-8mm](https://github.com/kakunpc/Suihankey/blob/master/images/m2-8mm.jpg)|
-|M2 3mmネジ|10本|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-3mm.jpg)|
-|M2 5mmネジ|2本|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-5mm.jpg)|
-|M2 5mmスペーサー|10個|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-5sp.jpg)|
-|M2 8mmスペーサー|2個|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-8sp.jpg)|
-|ゴム足|4つ|![rubber](https://github.com/kakunpc/Suihankey/blob/master/images/rubber.jpg)|
-|リセットスイッチ|1個|![reset](https://github.com/kakunpc/Suihankey/blob/master/images/reset.jpg)|
-|アクリル|1枚|![plate](https://github.com/kakunpc/Suihankey/blob/master/images/plate.jpg)|
+|ダイオード|18個|![diode](https://github.com/kakunpc/Suihankey/blob/master/images/diode.jpg?raw=true)|
+|M2 3mm貫通スペーサー|8個|![m-3sp](https://github.com/kakunpc/Suihankey/blob/master/images/m-3sp.jpg?raw=true)|
+|M2 8mmネジ|8本|![m2-8mm](https://github.com/kakunpc/Suihankey/blob/master/images/m2-8mm.jpg?raw=true)|
+|M2 3mmネジ|10本|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-3mm.jpg?raw=true)|
+|M2 5mmネジ|2本|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-5mm.jpg?raw=true)|
+|M2 5mmスペーサー|10個|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-5sp.jpg?raw=true)|
+|M2 8mmスペーサー|2個|![image](https://github.com/kakunpc/Suihankey/blob/master/images/m2-8sp.jpg?raw=true)|
+|ゴム足|4つ|![rubber](https://github.com/kakunpc/Suihankey/blob/master/images/rubber.jpg?raw=true)|
+|リセットスイッチ|1個|![reset](https://github.com/kakunpc/Suihankey/blob/master/images/reset.jpg?raw=true)|
+|アクリル|1枚|![plate](https://github.com/kakunpc/Suihankey/blob/master/images/plate.jpg?raw=true)|
 
 # 本製品に含まれていない必要なパーツ一覧と主な購入先
 
 |名前|個数|入手先| |
 |:-----:|:----:|:----:|:----:|
-|ProMicro+コンスルー|1セット|遊舎工房( https://yushakobo.jp/shop/promicro-spring-pinheader/ )|![pcb](https://github.com/kakunpc/Suihankey/blob/master/images/promico.jpg)|
-|SSD1306|1個|遊舎工房( https://yushakobo.jp/shop/oled/ )|![ssd1306](https://github.com/kakunpc/Suihankey/blob/master/images/ssd1306.jpg)|
-|MXキーソケット|18個|遊舎工房( https://yushakobo.jp/shop/a01ps/ )|![kailhchoc](https://github.com/kakunpc/Suihankey/blob/master/images/kailhchoc.jpg)|
-|（任意）SK6812MINI|18個|遊舎工房( https://yushakobo.jp/shop/sk6812mini-35/ )|![sk6812mini](https://github.com/kakunpc/Suihankey/blob/master/images/sk6812mini.jpg)|
+|ProMicro+コンスルー|1セット|遊舎工房( https://yushakobo.jp/shop/promicro-spring-pinheader/ )|![pcb](https://github.com/kakunpc/Suihankey/blob/master/images/promico.jpg?raw=true)|
+|SSD1306|1個|遊舎工房( https://yushakobo.jp/shop/oled/ )|![ssd1306](https://github.com/kakunpc/Suihankey/blob/master/images/ssd1306.jpg?raw=true)|
+|MXキーソケット|18個|遊舎工房( https://yushakobo.jp/shop/a01ps/ )|![kailhchoc](https://github.com/kakunpc/Suihankey/blob/master/images/kailhchoc.jpg?raw=true)|
+|（任意）SK6812MINI|18個|遊舎工房( https://yushakobo.jp/shop/sk6812mini-35/ )|![sk6812mini](https://github.com/kakunpc/Suihankey/blob/master/images/sk6812mini.jpg?raw=true)|
 |（任意）ワイヤー5cmぐらい|3本|秋月電子通商( http://akizukidenshi.com/catalog/g/gP-11640/ )| |
 
 # 本体の組み立て
 
+## 0.PCBの見かた（表裏、上下左右）
+
 ## 1. ダイオードを取り付け
 
-まず、ダイオードを取り付けていきます。  
+まず、ダイオードを取り付けていきます。
+
+ダイオードとは、電気の流れの向きを一定にする仕組みのものです。  
+水で表現すると水流の向きを制御し、逆向きに水が流れることを防ぎます。
+
+この特徴からダイオードには表面に細い線の印刷がされています。  
+肉眼では見辛いときはライトの向きを変えたり虫眼鏡で確認してください。
+
+**逆向きに取り付けてしまうと、そのキーは反応しなくなってしまいます。**
+
 ダイオードを取り付けるPCBの面は、裏側になります。
-ダイオードには向きがありますので注意して取り付けてください。
 
 ダイオードの端に細い線が通っている方と、 
 PCB側の `コ` の字型の線がある方を同じ向きに揃えてハンダ付けしていきます。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/1.jpg?raw=true)
 
-取り付けるときは、まず片側に予備ハンダをします。  
+ダイオードを取り付けるところにあらかじめはんだを盛っておきます。これを予備はんだといいます。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/2.jpg?raw=true)
+
 その後、先程予備ハンダしたところを半田ゴテで温めながら、ピンセットを使ってダイオードの取り付けていきます。  
-うまく位置を合わせながらピンセットで固定しながら半田ゴテを外し、ハンダが固まるまでピンセットを固定し、ハンダが固まったら片足の取り付けが完了です。
-これを18個分行っていきます。
+うまく位置を合わせながらピンセットで固定しながら半田ゴテを外し、ハンダが固まるまで約1秒ピンセットを固定し、ハンダが固まったらピンセットを離し片足の取り付けが完了です。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/3.jpg?raw=true)
 
 その後、もう片方の足をはんだ付けします。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/2.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/3.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/4.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/4.jpg?raw=true)
 
-すべてはんだ付けするとこのようになります。
+これを18個分行っていきます。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/5.jpg)
+
+すべてのダイオードをはんだ付けすると次の写真のようになります。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/1/5.jpg?raw=true)
+
+ダイオードハンダ付けの参考動画です。  
+https://twitter.com/Salicylic_acid3/status/1108798243142434816
 
 ## 2. リセットスイッチの取り付け
-次に、リセットスイッチを取り付けていきます。  
-ダイオードと同じく裏側にはんだ付けしていきます。
+次に、リセットスイッチを取り付けます。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/2/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/2/1.jpg?raw=true)
 
-スイッチも同じく先に片足だけ予備ハンダします。
+リセットスイッチも同じく先に片足だけ予備ハンダします。
 その後、ピンセットを使いながらスイッチの片足をはんだ付けします。  
-上手くはんだ付けできたら、もう片足と横の方もしっかりはんだ付けしていきます。
+はんだ付けできたら、もう片足と横の方もしっかりはんだ付けしていきます。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/2/2.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/2/3.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/2/4.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/2/2.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/2/3.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/2/4.jpg?raw=true)
 
-## 3. ソケットを付ける
-KailhChocソケットをつけていきます。
-こちらも、裏面にはんだ付けします。
+## 3. キースイッチ用のソケットをはんだ付けする
+KailhChocソケットをはんだ付けします。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/1.jpg?raw=true)
 
 穴が複数空いており複雑になっています。
 向きを間違えないよう、PCBの枠線に合うように置いてはんだ付けしていきます。
 
 ***ソケットの向き、PCBの面を間違えてしまうとスイッチがはまらなくなってしまいます。写真を見ながら慎重に作業してください。***
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/2.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/3.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/4.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/2.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/3.jpg?raw=true)
+
+すべてのソケットをはんだ付けすると次の写真のようになります。
+
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/3/4.jpg?raw=true)
 
 ## 4. OLEDのジャンパする
 PCBを表面にし、 `SDA,SCL,VCC,GND` のところをハンダでジャンパしていきます。
 
 ***ここのジャンパは裏面ではないです。間違えないようにしてください。***
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/4/1.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/4/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/4/1.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/4/2.jpg?raw=true)
 
 
 ## 5. OLEDソケットを付ける
 
 先程ジャンパしたところの下の位置にソケットをつけてはんだ付けしていきます。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/5/1.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/5/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/5/1.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/5/2.jpg?raw=true)
 
 ## 6. RGBLEDをつける（オプション）
 
 この作業の必要のない方は [(8. ネジを付ける)](https://github.com/kakunpc/Suihankey#8-%E3%83%8D%E3%82%B8%E3%82%92%E4%BB%98%E3%81%91%E3%82%8B) まで飛ばしてください。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/1.jpg?raw=true)
 
 まず半田ゴテの温度を下げます（230度ぐらいに）
 半田ゴテの温度が高い状態で作業するとLEDを熱で壊してしまいますので、必ず下げてください。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/2.jpg?raw=true)
 
 LEDの切込みと、PCBの枠で囲った位置が合うよう向きを合わせてはんだ付けしていきます。
 このとき、ダイオードでやったのと同じで一箇所だけ予備ハンダし、ピンセットを使ってハンダ付けしてください。
 
 ***このとき、なるべく慌てず素早く作業しましょう。温度が低くても長時間温め続けてしまうとLEDの故障の原因となります。***
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/3.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/6/3.jpg?raw=true)
 
 ## 7. ボトムプレートとPCBをワイヤーでつなぐ（オプション）
 
@@ -162,8 +183,8 @@ LEDの切込みと、PCBの枠で囲った位置が合うよう向きを合わ�
 □から `VCC,LED,GND` の順になっています。
 
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/7/1.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/7/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/7/1.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/7/2.jpg?raw=true)
 
 ## 8. ネジを付ける
 ひっくり返す作業が必要となりますのでカッターマットなどを用意してください。
@@ -171,43 +192,43 @@ LEDの切込みと、PCBの枠で囲った位置が合うよう向きを合わ�
 
 トッププレートに `M2 8mmネジ` を8箇所全てのネジ穴に指します。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/1.jpg?raw=true)
 
 その後カッターマットなどを利用してネジ穴から落ちないようひっくり返します。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/2.jpg?raw=true)
 
 ひっくり返したら、 `M2 3mm 貫通スペーサー` を8箇所と通します。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/3.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/3.jpg?raw=true)
 
 その後、PCBを付けて、 `M2 5mm スペーサー` で固定します。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/4.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/5.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/4.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/5.jpg?raw=true)
 
 8箇所すべて固定しネジが落ちない状況になったら、再度ひっくり返し、PCBに `M2 8mmスペーサー` を通します。その後反対側を `M2 5mm スペーサー` で固定します。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/6.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/7.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/6.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/7.jpg?raw=true)
 
 最後にボトムプレートをとりつけ `M2 3mm ネジ` で10箇所固定します。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/8.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/9.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/8.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/9.jpg?raw=true)
 
 ## 9. ProMicroにコンスルーをつける
 ProMicroとコンスルーを準備します。
 遊舎工房様で購入した場合は、ピンヘッダとコンスルーの両方がついてきます。
 そのうち、写真の下側のほうがコンスルーでこちらの方を使っていきます。 (上の方は不要なので破棄するかよしなにしてください)
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/1.jpg?raw=true)
 
 コンスルーには向きがあり、小さな点がProMicro側に来るようにとりつけます。  
 また、USBの受け口が内側になるようコンスルーをはんだ付けします。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/2.jpg)
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/3.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/2.jpg?raw=true)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/9/3.jpg?raw=true)
 
 ## 10. PCBにProMicroを取り付ける
 先程はんだ付けしたProMicroをPCBに取り付けていきます。
@@ -215,36 +236,36 @@ ProMicroとコンスルーを準備します。
 
 取り付けるときは白い枠線にピッタリ合うよう、下の線に合わせて取り付けていきます。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/10/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/10/1.jpg?raw=true)
 
 ## 11. OLEDをつける
 最後にOLEDをハンダ付けします。
 ピンヘッダをソケットに差し込み、その上にOLEDを乗せ、そのままはんだ付けします。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/11/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/11/1.jpg?raw=true)
 
 ## 12. OLED保護アクリルを取り付ける
 アクリルについている紙を剥がします。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/12/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/12/1.jpg?raw=true)
 
 次にOLEDの保護シートを剥がし、 `M2 5mm ネジ` でアクリルを固定します。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/12/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/12/2.jpg?raw=true)
 
 ## 13. ゴム足をつける
 ネジが傷をつけないように、ゴム足を取り付けます。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/13/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/13/1.jpg?raw=true)
 
 ## 14. キースイッチとキーキャップを指す
 
 向きに注意してキースイッチを指したあとキーキャップ付けていきます。
 つけることが出来たらこれで本体は完成です。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/1.jpg?raw=true)
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/14/2.jpg?raw=true)
 
 # 基本ファームウェアの書き込み
 
@@ -263,21 +284,21 @@ ProMicroとコンスルーを準備します。
 - `Microcontroller` を `atmega42u4` を指定します。
 - `Auto-Flash` にチェックを入れます。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/1.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/1.jpg?raw=true)
 
 準備ができたら、USBでPCとSuihankeyを接続します。
 その後、リセットスイッチを押してしばらくまちます。
 
 `Thank you.` と画面に出たら完了です。
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/2.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/2.jpg?raw=true)
 
 デフォルトファームウェアはこの様になっています。
 実際にボタンをして正しく動作するか確認しましょう。
 
 **FUNCTION・NUMBER・COMANDに関しては、OLEDディスプレイの文字が変化します。**
 
-![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/3.jpg)
+![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/3.jpg?raw=true)
 
 # QMK Configuratorでファームウェアを作る
 TDB
@@ -289,4 +310,3 @@ TDB
 - 左右どちらにもOLEDを接続はできますが、アドレスが同じなため2つとも同じ表示となります。左右う別々の表示はできません。
 - OLEDを利用する場合左右で別々のファームウェアを準備する必要があります。
     - マスタ側にOLEDをON、スレーブ側ではOLEDをOFFにするだけです。
-
