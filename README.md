@@ -68,6 +68,16 @@
 
 ## 0.PCBの見かた（表裏、上下左右）
 
+本体の基板はリバーシブル基板となっています。  
+そのため、左手用右手用にハンダする箇所がありますので、それぞれ間違えないようよく確認してください。
+
+
+![top](https://github.com/kakunpc/Suihankey/blob/master/images/0/top.jpg?raw=true)
+![main](https://github.com/kakunpc/Suihankey/blob/master/images/0/main.jpg?raw=true)
+![bottom](https://github.com/kakunpc/Suihankey/blob/master/images/0/bottom.jpg?raw=true)
+
+このあとの解説はすべて左手用での説明となっています。
+
 ## 1. ダイオードを取り付け
 
 まず、ダイオードを取り付けていきます。
