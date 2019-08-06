@@ -344,7 +344,15 @@ ProMicroの部品が実装されている面にコンスルーを差し込みま
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/qmk_toolbox/3.jpg?raw=true)
 
 # QMK Configuratorでファームウェアを作る
-TDB
+
+***現在バグが発生していてこちらの方法ではファームウェアを作ることが出来ません***
+
+https://config.qmk.fm/#/suihankey/LAYOUT - こちらのリンクからキー配置の割り当てをGUIで設定し、hexファイルを作成することが出来ます。
+
+hexファイルをProMicroに書き込むときは ***基本ファームウェアの書き込み*** を参考にしてください。
+
+QMK Configurator自体の使い方に関してはこちらの動画を参考にしてください。  
+基礎からわかる！自キ入門講座 第12回「ファームウェアのカスタマイズ」 - https://www.youtube.com/watch?v=J3Z1LN2ZMu8
 
 # 36キーキーボードとして使うときの注意事項
 - 4.7kΩの抵抗が2つと、4ピンのジャックのハンダ付けが別途必要になります。  
