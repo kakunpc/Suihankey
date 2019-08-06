@@ -347,9 +347,10 @@ ProMicroの部品が実装されている面にコンスルーを差し込みま
 
 ***現在バグが発生していてこちらの方法ではファームウェアを作ることが出来ません***
 
-https://config.qmk.fm/#/suihankey/LAYOUT - こちらのリンクからキー配置の割り当てをGUIで設定し、hexファイルを作成することが出来ます。
+次のリンクからキー配置の割り当てをGUIで設定し、hexファイルを作成することが出来ます。  
+https://config.qmk.fm/#/suihankey/LAYOUT
 
-hexファイルをProMicroに書き込むときは ***基本ファームウェアの書き込み*** を参考にしてください。
+hexファイルをProMicroに書き込むときは ***[基本ファームウェアの書き込み](https://github.com/kakunpc/Suihankey/blob/master/README.md#%E5%9F%BA%E6%9C%AC%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF)*** を参考にしてください。
 
 QMK Configurator自体の使い方に関してはこちらの動画を参考にしてください。  
 基礎からわかる！自キ入門講座 第12回「ファームウェアのカスタマイズ」 - https://www.youtube.com/watch?v=J3Z1LN2ZMu8
