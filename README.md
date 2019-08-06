@@ -201,12 +201,14 @@ RGBLEDの切込みと、PCBの枠で囲った位置が合うよう向きを合�
 
 ## 7. ボトムプレートとPCBをワイヤーでつなぐ（オプション）
 
+RGBLEDを光らせる電力をボトム基板に送るため  
+PCB基板とボトムの基板をワイヤーでつなぎます。
+
 ワイヤーを5cm～7cmぐらいの長さに揃えて切り、両端から３ミリを目安にワイヤーストリッパーなどを使って被覆を剥ぎます。
 
 その後、上から同じ位置に合うようにワイヤーを刺し、はんだ付けします。
 
 □から `VCC,LED,GND` の順になっています。
-
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/7/1.jpg?raw=true)
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/7/2.jpg?raw=true)
@@ -243,6 +245,7 @@ RGBLEDの切込みと、PCBの枠で囲った位置が合うよう向きを合�
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/8/9.jpg?raw=true)
 
 ## 9. ProMicroにコンスルーをつける
+
 ProMicroとコンスルーを準備します。
 遊舎工房様で購入した場合は、ピンヘッダとコンスルーの両方がついてきます。
 そのうち、写真の下側のほうがコンスルーでこちらの方を使っていきます。 (上の方は不要なので破棄するかよしなにしてください)
@@ -262,7 +265,7 @@ ProMicroの部品が実装されている面にコンスルーを差し込みま
 
 取り付けるときは白い枠線にピッタリ合うよう、下の線に合わせて取り付けます。
 
-その後もう一度しっかり刺さってるか確認し、ProMicroをはんだ付けします。
+その後もう一度しっかり刺さってるか確認し、 ***ProMicroをはんだ付けします。***
 
 ![image](https://github.com/kakunpc/Suihankey/blob/master/images/10/1.jpg?raw=true)
 
